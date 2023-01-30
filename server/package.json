@@ -1,0 +1,10 @@
+{
+  "name": "ShareInside",
+  "version": "1.0.0",
+  "description": "This is a sharing knowledge based web application",
+  "main": "index.js",
+  "repository": "https://github.com/jahid58/share-inside.git",
+  "author": "Jahid Hasan",
+  "license": "N/A",
+  "private": true
+}

@@ -1,18 +1,19 @@
-import './globals.css'
+import Nav from '@/components/navbar';
+import './globals.css';
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
+    <html lang='en'>
+      <body>
+        <nav className=''>
+          <Nav />
+        </nav>
+        <main className='bg-white w-full h-full'>{children}</main>
+      </body>
     </html>
-  )
+  );
 }
